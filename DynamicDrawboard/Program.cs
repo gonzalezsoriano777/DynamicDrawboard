@@ -16,6 +16,9 @@ namespace DynamicDrawboard
         public static class int drawboard()
         {
 
+
+            int width = '|';
+            int height = "X, Y";
         }
     }
 }
