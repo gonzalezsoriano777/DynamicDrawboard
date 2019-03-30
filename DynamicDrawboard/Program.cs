@@ -9,19 +9,23 @@ namespace DynamicDrawboard
     public class Board
     {
          
-        int width = '|';
-        int height = 'X';
-        string boardchar = " "; // char spacing
+        char width = '|';
+        string height = "--";
+        string boardchar = " "; // character spacing
 
 
-        static void Main()
+        static void Main(string [] args )
         {
             int results = Board(6, 3);
+            Console.WriteLine("hello, world!!");
         }
 
         public void Drawboard(int x, int y)
         {
-            for(int i = 0; i < y; i++)    
+            for(int i = 0; i < y; i++)
+            {
+                
+            }    
         }
     }
 }
