@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace DynamicDrawboard
 {
-    public class Board
+    public static class Board
     {
-        Console.WriteLine("hello, world!");
+        static void Main()
+        {
+            Console.WriteLine("hello, world");
+        }
+
+        public static class int drawboard()
+        {
+
+        }
     }
 }
