@@ -6,19 +6,21 @@ using System.Threading.Tasks;
 
 namespace DynamicDrawboard
 {
-    public static class Board
+    public class Board
     {
+        int results = drawboard();
+        int width = '|';
+        int height = "X,Y";
+
+
         static void Main()
         {
-            Console.WriteLine("hello, world!");
+            Console.WriteLine("hello, world");
         }
 
-        public static class int drawboard()
+        public void Drawboard(int x, int y)
         {
-
-
-            int width = '|';
-            int height = "X, Y";
+            Console.ReadLine();    
         }
     }
 }
