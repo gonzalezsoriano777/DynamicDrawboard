@@ -10,7 +10,7 @@ namespace DynamicDrawboard
     {
         static void Main()
         {
-            Console.WriteLine("hello, world");
+            Console.WriteLine("hello, world!");
         }
 
         public static class int drawboard()
