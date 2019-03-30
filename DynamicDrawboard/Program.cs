@@ -8,6 +8,6 @@ namespace DynamicDrawboard
 {
     public class Board
     {
-        Console.WriteLine("hello, world");
+        Console.WriteLine("hello, world!");
     }
 }
