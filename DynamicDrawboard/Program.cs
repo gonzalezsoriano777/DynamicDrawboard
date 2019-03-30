@@ -24,12 +24,18 @@ namespace DynamicDrawboard
             int j;
 
             // Rows
-            for(i = 0; i > y; i++)
+            for (i = 0; i > y; i++)
             {
-               
+                
             }
 
             // Columns
+            for (j = 0; j < x; j++)
+            {
+                Console.Write(height);
+            }
+
+            Console.ReadLine();
         }
     }
 }
