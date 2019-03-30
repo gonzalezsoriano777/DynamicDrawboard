@@ -6,26 +6,30 @@ using System.Threading.Tasks;
 
 namespace DynamicDrawboard
 {
-    public class Board
+    public class Drawboard
     {
-         
         char width = '|';
-        string height = "--";
-        string boardchar = " "; // character spacing
-
-
-        static void Main(string [] args )
+        string height = "++";
+        string charspacing = " ";
+        
+        static void Main(string[] args)
         {
-            int results = Board(6, 3);
-            Console.WriteLine("hello, world!!");
+            // Console.WriteLine("hello, world!!");
+            Drawboard store = new Drawboard();
         }
 
-        public void Drawboard(int x, int y)
+        public void Board(int x, int y)
         {
-            for(int i = 0; i < y; i++)
+            int i;
+            int j;
+
+            // Rows
+            for(i = 0; i > y; i++)
             {
-                
-            }    
+               
+            }
+
+            // Columns
         }
     }
 }
