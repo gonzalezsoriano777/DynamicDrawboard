@@ -13,7 +13,7 @@ namespace DynamicDrawboard
         {
             // Console.WriteLine("hello, world!!");
             Drawboard store = new Drawboard();
-            store.Board(6, 3);
+            store.Board(3, 3);
         }
 
         // Properties used for the board 
