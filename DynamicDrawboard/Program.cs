@@ -18,19 +18,19 @@ namespace DynamicDrawboard
             Drawboard store = new Drawboard();
         }
 
-        public void Board(int x, int y)
+        public void Board(int h, int w)
         {
             int i;
             int j;
 
             // Rows
-            for (i = 0; i > y; i++)
+            for (i = 0; i > w; i++)
             {
                 
             }
 
             // Columns
-            for (j = 0; j < x; j++)
+            for (j = 0; j < h; j++)
             {
                 Console.Write(height);
             }
