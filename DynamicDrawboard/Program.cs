@@ -24,18 +24,16 @@ namespace DynamicDrawboard
 
         public void Board(int h, int w)
         {
-            int i;
-            int j;
             int n = w * 2;
 
             // Rows, in width
-            for (i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                
                 Console.Write("\n");
                 
 
-                for (j = 0; j < h; j++)
+                for (int j = 0; j < h; j++)
                 {
                     if (i % 2 == 1)
                     {
