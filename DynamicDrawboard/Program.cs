@@ -17,9 +17,9 @@ namespace DynamicDrawboard
         }
 
         // Properties used for the board 
+        string charspacing = " ";
         char width = '|';
         string height = "++";
-        string charspacing = " ";
 
 
         public void Board(int h, int w)
