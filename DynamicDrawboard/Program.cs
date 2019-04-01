@@ -32,7 +32,7 @@ namespace DynamicDrawboard
                
                 Console.Write("\n");
                 
-
+               // Columns, in height
                 for (int j = 0; j < h; j++)
                 {
                     if (i % 2 == 1)
